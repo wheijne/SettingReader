@@ -19,3 +19,5 @@ Each line of the file must be one of the following:
 The settings will be checked for the types Integer, Double and boolean. If the value is not one of those, it will be stored and returned 
 as a String. If a value is written as a Double, but is a whole number, it will be stored and returned as an Integer. A boolean true can be
 written as true, t, TRUE or T. 
+
+For Questions or suggestions, you may send a mail to: heijne.programming@gmail.com
