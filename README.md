@@ -21,3 +21,5 @@ as a String. If a value is written as a Double, but is a whole number, it will b
 written as true, t, TRUE or T. 
 
 For Questions or suggestions, you may send a mail to: heijne.programming@gmail.com
+
+![Image](UML_diagram.png "UML diagram for the package.")
