@@ -14,7 +14,8 @@ Each line of the file must be one of the following:
  - A comment, indicated the starting of the line with //
  - A Setting formatted as follows: KEY SPLITTER VALUE. KEY will become the key that is used to get the setting's value, 
     namely VALUE. The splitter is some String that seperates the two. It can be anything from the default ":" to a long sentance.
-    The splitter can be passed to the constructor of Settings.
+    The splitter can be passed to the constructor of Settings. The leading and trailing white space of both KEY and VALUE will be removed
+    
 The settings will be checked for the types Integer, Double and boolean. If the value is not one of those, it will be stored and returned 
 as a String. If a value is written as a Double, but is a whole number, it will be stored and returned as an Integer. A boolean true can be
 written as true, t, TRUE or T. 
